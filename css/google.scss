@@ -1,0 +1,174 @@
+:root{
+    --skyblue:#2699FB;
+    --orange:#FCA311;
+    --blue:#1B51A2;
+    --darkblue:#14213D;
+    --grey:#cacaca;
+    --style: 'Akaya Telivigala', cursive;
+}
+ 
+*{
+    margin: 0;
+    padding: 0;
+   box-sizing: border-box;
+   list-style: none;
+   text-decoration: none;
+   text-decoration-color: none;
+   list-style: none;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+.container{
+    display: flex;
+ 
+    background: black;
+    .w-sidebar{
+       display: none;
+    }
+    .card-list{
+        display:flex;
+        flex-direction: column;
+        place-content: center; 
+        margin: 15px auto;
+        width: 400px; 
+
+        a{
+            color: white;
+            font-size: 1.2em;
+            margin-bottom: 30px;
+            width: 40px;
+        }
+        .card{
+            text-align: center;
+           
+            background-color: var(--blue);
+            color: white;
+            width: 90%;
+            height:200px;
+            margin: 0 auto;
+            margin-bottom: 35px;
+            
+            border-radius: 5px;
+            h4{ font-family:  'Akaya Telivigala', cursive;
+                color: var(--orange);
+                font-size: 1.2em;
+                padding:5px ;
+            }
+            blockquote{
+                padding: 5px;
+            }
+            button{
+                margin-top: 15px;
+                float: right;
+                margin-right: 15px;
+                background: var(--orange);
+                padding: 5px;
+                border: none;
+                border-radius: 6px;
+                cursor: pointer;
+            }
+
+        }
+    }
+   
+}
+footer{
+    background: linear-gradient(grey,black);
+   width: 100%;
+    height: 90px;
+    
+    #footer-links{
+        a{text-decoration: none;}
+        width: 50%; 
+        display: flex;
+        margin: 0px auto;
+        place-content: space-around;
+        padding: 2px;
+        padding-top: 10px;
+        color: white;
+        font-size: 1.2em;
+        li{
+            padding: 3px;
+            align-items: center;
+            cursor: pointer;
+            &:hover{
+                transform: scale(1.2);
+            }
+        }
+    }
+    h5{ 
+        padding: 5px;
+        text-align: center;
+        color: white;
+        font-size: .8em;
+        font-family:  'Akaya Telivigala', cursive;
+        span{
+            color: var(--orange);
+        }
+
+    }
+}
+/* media queries */
+@media only screen and (min-width:768px){
+    
+     #selected{
+        animation-name: sample;
+        animation-iteration-count: infinite;
+        animation-duration: 1s;
+        animation-timing-function: ease-in-out;
+        animation-direction: alternate;
+     }
+     @keyframes sample{
+         from{ color: black;}
+         to{color:red}
+     } 
+    
+     #ibm-container,#other-container{
+         height: 97vh;
+     }
+     
+    .container{
+       
+    #back-arrow{
+        display: none;
+    }
+    .w-sidebar{
+        display: unset;
+        background: var(--grey);
+        width: 25%;
+        display: flex;
+        align-items: center;
+        justify-content: center; 
+        text-align: center;
+        
+        font-weight: bold;
+        text-decoration: none;
+        font-size: 1.2em;
+         ul{
+            li{
+                padding: 35px;
+                a{
+                    color: black;
+                }
+               
+            }
+            
+        }
+        .global-home{
+                color: var(--orange);
+            }
+    }
+    .card-list{
+        display: grid;
+        grid-template-columns:300px 300px;
+        column-gap: 20px;
+        
+       
+    } 
+
+    }
+}
+
+
+

@@ -1,0 +1,208 @@
+:root {
+  --skyblue:#2699FB;
+  --orange:#FCA311;
+  --blue:#1B51A2;
+  --darkblue:#14213D;
+  --grey:#cacaca;
+  --style: 'Akaya Telivigala', cursive;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  -webkit-text-decoration-color: none;
+          text-decoration-color: none;
+  list-style: none;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: black;
+}
+
+.container .w-sidebar {
+  display: none;
+}
+
+.container .card-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  place-content: center;
+  margin: 15px auto;
+  width: 400px;
+}
+
+.container .card-list a {
+  color: white;
+  font-size: 1.2em;
+  margin-bottom: 30px;
+  width: 40px;
+}
+
+.container .card-list .card {
+  text-align: center;
+  background-color: var(--blue);
+  color: white;
+  width: 90%;
+  height: 200px;
+  margin: 0 auto;
+  margin-bottom: 35px;
+  border-radius: 5px;
+}
+
+.container .card-list .card h4 {
+  font-family: 'Akaya Telivigala', cursive;
+  color: var(--orange);
+  font-size: 1.2em;
+  padding: 5px;
+}
+
+.container .card-list .card blockquote {
+  padding: 5px;
+}
+
+.container .card-list .card button {
+  margin-top: 15px;
+  float: right;
+  margin-right: 15px;
+  background: var(--orange);
+  padding: 5px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+footer {
+  background: -webkit-gradient(linear, left top, left bottom, from(grey), to(black));
+  background: linear-gradient(grey, black);
+  width: 100%;
+  height: 90px;
+}
+
+footer #footer-links {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0px auto;
+  place-content: space-around;
+  padding: 2px;
+  padding-top: 10px;
+  color: white;
+  font-size: 1.2em;
+}
+
+footer #footer-links a {
+  text-decoration: none;
+}
+
+footer #footer-links li {
+  padding: 3px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+}
+
+footer #footer-links li:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+footer h5 {
+  padding: 5px;
+  text-align: center;
+  color: white;
+  font-size: .8em;
+  font-family: 'Akaya Telivigala', cursive;
+}
+
+footer h5 span {
+  color: var(--orange);
+}
+
+/* media queries */
+@media only screen and (min-width: 768px) {
+  #selected {
+    -webkit-animation-name: sample;
+            animation-name: sample;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-animation-duration: 1s;
+            animation-duration: 1s;
+    -webkit-animation-timing-function: ease-in-out;
+            animation-timing-function: ease-in-out;
+    -webkit-animation-direction: alternate;
+            animation-direction: alternate;
+  }
+  @-webkit-keyframes sample {
+    from {
+      color: black;
+    }
+    to {
+      color: red;
+    }
+  }
+  @keyframes sample {
+    from {
+      color: black;
+    }
+    to {
+      color: red;
+    }
+  }
+  #ibm-container, #other-container {
+    height: 97vh;
+  }
+  .container #back-arrow {
+    display: none;
+  }
+  .container .w-sidebar {
+    display: unset;
+    background: var(--grey);
+    width: 25%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 1.2em;
+  }
+  .container .w-sidebar ul li {
+    padding: 35px;
+  }
+  .container .w-sidebar ul li a {
+    color: black;
+  }
+  .container .w-sidebar .global-home {
+    color: var(--orange);
+  }
+  .container .card-list {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 300px 300px;
+        grid-template-columns: 300px 300px;
+    -webkit-column-gap: 20px;
+            column-gap: 20px;
+  }
+}
+/*# sourceMappingURL=google.css.map */

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="403" height="403" viewBox="0 0 403 403">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.823" y2="0.756" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="red"/>
+      <stop offset="0.284" stop-color="#fca311"/>
+      <stop offset="0.602" stop-color="#1abb20"/>
+      <stop offset="1" stop-color="#008fff"/>
+    </linearGradient>
+  </defs>
+  <g id="google-circle" transform="translate(-682.449 -5650.03)">
+    <g id="Ellipse_20" data-name="Ellipse 20" transform="translate(682.449 5650.03)" stroke="#fff" stroke-width="10">
+      <circle cx="201.5" cy="201.5" r="201.5" stroke="none"/>
+      <circle cx="201.5" cy="201.5" r="196.5" fill="none"/>
+    </g>
+    <path id="google-brands" d="M227.749,126.448c0,66.038-45.223,113.035-112.008,113.035A115.742,115.742,0,1,1,115.742,8c31.176,0,57.4,11.434,77.612,30.289l-31.5,30.289C120.642,28.815,44.01,58.684,44.01,123.742c0,40.37,32.249,73.085,71.732,73.085,45.83,0,63-32.856,65.711-49.89H115.742V107.127H225.929a101.469,101.469,0,0,1,1.82,19.321Z" transform="translate(770.324 5733.623)" fill="url(#linear-gradient)"/>
+  </g>
+</svg>
