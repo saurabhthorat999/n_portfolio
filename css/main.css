@@ -307,7 +307,7 @@ body {
 }
 
 #badges .badge1 {
-  margin: 20% auto;
+  margin: 10% auto;
 }
 
 #badges .badge1 img {
@@ -594,7 +594,7 @@ footer h5 span {
             flex-direction: column;
     margin-top: 90px;
     width: 50%;
-    height: 90vh;
+    height: 150vh;
   }
   #projects .project img {
     display: unset;
