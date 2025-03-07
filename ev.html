@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Details</title>
+    <!-- <link rel="stylesheet" href="css/style.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        body {
+            background-color: #121212;
+            color: #ffffff;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            padding: 50px 0;
+        }
+        .back-link {
+            color: #00ffcc;
+            text-decoration: none;
+            font-size: 18px;
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .back-link i {
+            margin-right: 5px;
+        }
+        .project-header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .project-header h1 {
+            color: #00ffcc;
+            font-size: 28px;
+        }
+        .project-content {
+            background: #1e1e1e;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0px 5px 15px rgba(255, 255, 255, 0.1);
+        }
+        .project-section {
+            margin-bottom: 30px;
+        }
+        .project-section h2 {
+            color: #41bdff;
+            font-size: 24px;
+            margin-bottom: 15px;
+            /* border-bottom: 2px solid #00ffcc; */
+            border-bottom: 2px solid #ffcc00;
+            padding-bottom: 5px;
+        }
+
+        /* Market Overview Box Layout */
+        .market-metrics {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        .metric-box {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 20px;
+            border-radius: 12px;
+            min-width: 180px;
+            text-align: center;
+            box-shadow: 2px 4px 10px rgba(255, 255, 255, 0.1);
+        }
+        .metric-box:hover{
+           h3{
+            color: black;
+           }
+           p{
+            color:black
+           }
+        }
+        
+        .metric-box h3 {
+            font-size: 22px;
+            color: #ffffff;
+            margin: 0;
+        }
+        .metric-box p {
+            font-size: 14px;
+            color: #d1d1d1;
+            margin-top: 5px;
+        }
+       
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background: #000000;
+            /* color: #121212; */
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background 0.3s ease;
+            margin-right: 10px;
+        }
+        .btn:hover {
+            background: #00926e;
+           
+        }
+       
+    .modern-table {
+        width: 50%;
+        border-collapse: collapse;
+        margin-top: 15px;
+        background: rgba(255, 255, 255, 0.1);
+        border-radius: 10px;
+        overflow: hidden;
+        box-shadow: 2px 4px 10px rgba(255, 255, 255, 0.1);
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .modern-table thead {
+        background: #00ffcc;
+        color: #121212;
+    }
+    .modern-table th, .modern-table td {
+        padding: 12px;
+        text-align: center;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    }
+    .modern-table tbody tr:hover {
+        background: rgba(255, 255, 255, 0.2);
+    }
+    .top {
+        color: #00ffcc;
+        font-weight: bold;
+    }
+    .bottom {
+        color: #ff4d4d;
+        font-weight: bold;
+    }
+    .penetration-chart {
+        text-align: center;
+        margin: 20px 0;
+    }
+    .penetration-chart img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 10px;
+        box-shadow: 2px 4px 10px rgba(255, 255, 255, 0.1);
+    }
+    .sales-chart {
+        text-align: center;
+        margin: 20px 0;
+    }
+    .sales-chart img {
+        max-width: 70%;
+        height: auto;
+        border-radius: 10px;
+        box-shadow: 2px 4px 10px rgba(255, 255, 255, 0.1);
+    }
+    .ev-makers-chart {
+        text-align: center;
+        margin: 20px 0;
+    }
+    .ev-makers-chart img {
+        max-width: 50%;
+        height: auto;
+        border-radius: 10px;
+        box-shadow: 2px 4px 10px rgba(255, 255, 255, 0.1);
+    }
+    .live-demo {
+        text-align: center;
+        margin: 20px 0;
+    }
+    .live-demo iframe {
+        max-width: 100%;
+        border-radius: 10px;
+        box-shadow: 2px 4px 10px rgba(255, 255, 255, 0.1);
+    }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="analysis.html" class="back-link"><i class="fas fa-arrow-left"></i> Back to Projects</a>
+        
+        <div class="project-header">
+            <h1>Electric Vehicle (EV) Market Analysis</h1>
+            <p>A deep dive into EV sales trends, key manufacturers, and future projections (2022-2024).</p>
+        </div>
+
+        <div class="project-content">
+            <div class="project-section">
+                <h2>Description</h2>
+                <p>The Electric Vehicle (EV) industry has seen rapid transformation over the past few years, driven by technological advancements, government policies, and shifting consumer preferences.</p>
+            </div>
+            
+            <div class="project-section">
+                <h2>Technologies Used</h2>
+                <p>Power BI Desktop, Power BI Service, Excel, MySQL</p>
+            </div>
+
+            <div class="project-section">
+                <h2>Market Overview & Key Measures</h2>
+                <div class="market-metrics">
+                    <div class="metric-box btn">
+                        <h3>2M</h3>
+                        <p>Total EVs Sold (2022-2024)</p>
+                    </div>
+                    <div class="metric-box btn">
+                        <h3>57M</h3>
+                        <p>Total Vehicles Sold</p>
+                    </div>
+                    <div class="metric-box btn">
+                        <h3>3.61%</h3>
+                        <p>EV Penetration Rate</p>
+                    </div>
+                    <div class="metric-box btn">
+                        <h3>93.91%</h3>
+                        <p>EV CAGR (Growth Rate)</p>
+                    </div>
+                    <div class="metric-box btn">
+                        <h3>54.21M</h3>
+                        <p>Projected EV Sales for 2030</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-section">
+                <h2>Top and Bottom EV Manufacturers (2-Wheelers)</h2>
+                <table class="modern-table">
+                    <thead>
+                        <tr>
+                            <th>Rank</th>
+                            <th>Manufacturer</th>
+                            <th>Sales (FY 2023-24)</th>
+                            <th>Category</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Ola Electric</td>
+                            <td>475K</td>
+                            <td class="top">Top Performer</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>TVS</td>
+                            <td>263K</td>
+                            <td class="top">Top Performer</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Ather Energy</td>
+                            <td>184K</td>
+                            <td class="top">Top Performer</td>
+                        </tr>
+                        <tr>
+                            <td>8</td>
+                            <td>Battre Electric</td>
+                            <td>4.84K</td>
+                            <td class="bottom">Bottom Performer</td>
+                        </tr>
+                        <tr>
+                            <td>9</td>
+                            <td>Jitendra EV</td>
+                            <td>8.56K</td>
+                            <td class="bottom">Bottom Performer</td>
+                        </tr>
+                        <tr>
+                            <td>10</td>
+                            <td>Kinetic Green</td>
+                            <td>9.56K</td>
+                            <td class="bottom">Bottom Performer</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="project-section">
+                <h2>EV Penetration Trends Across India</h2>
+                
+                <p>Top 5 States with Highest EV Penetration in FY 2024:</p>
+                
+                <div class="penetration-chart">
+                    <img src="images/ev_trends.JPG" alt="EV Penetration by State">
+                </div>
+                
+                <p>These states lead in EV adoption due to strong government policies, infrastructure, and urban adoption rates.</p>
+                
+                <p>States with Declining EV Penetration Growth (2022-2024):</p>
+                
+                <p>Some states that had an early mover advantage have struggled with increasing competition and changing market preferences. The lack of continuous infrastructure expansion has also contributed to the decline.</p>
+            </div>
+
+            <div class="project-section">
+                <h2>Seasonal Sales Trends</h2>
+            
+                <p>Sales peak in Q3 and Q4 (October–March) due to major Indian festivals such as Diwali and New Year.</p>
+                <p>Q1 and Q2 (April–September) generally witness slower sales, making it necessary for companies to implement alternative marketing strategies.</p>
+                
+                <div class="sales-chart">
+                    <img src="images/quartely_sales.JPG" alt="Quarterly Sales Trends">
+                </div>
+            
+                <p>Manufacturers should optimize their sales and marketing strategies to align with these trends for maximum impact.</p>
+            </div>
+            
+
+           
+
+            <div class="project-section">
+                <h2>Top 5 EV Makers (4-Wheelers) – CAGR Report</h2>
+            
+                <p>Certain 4-wheeler manufacturers have achieved significant growth by focusing on battery technology, affordability, and after-sales services.</p>
+                <p>Additionally, the Top 10 states with the highest CAGR in EV sales (2022-2024) offer promising expansion opportunities.</p>
+            
+                <div class="ev-makers-chart">
+                    <img src="images/top_5_ev_makers_cagr.JPG" alt="Top 5 EV Makers CAGR Report">
+                </div>
+            </div>
+
+            <div class="project-section">
+                <h2>Key Business Insights & Recommendations</h2>
+                <ul>
+                    <li><strong>Strong Growth Potential:</strong> Invest in Goa, Karnataka, and Delhi.</li>
+                    <li><strong>Seasonality:</strong> Maximize sales efforts in peak months.</li>
+                    <li><strong>Competitive Landscape:</strong> Ola Electric dominates, while Hero Electric struggles.</li>
+                </ul>
+            </div>
+
+            <div class="project-section">
+                <h2>Conclusion</h2>
+                <p>The EV industry is experiencing rapid growth, requiring companies to adapt strategically. Investments in infrastructure and battery innovation will be key.</p>
+            </div>
+
+            <div class="project-section">
+                <h2>Live Demo</h2>
+                <p>Explore the interactive EV Dashboard for in-depth insights.</p>
+            
+                <div class="live-demo">
+                    <iframe title="EV Dashboard" width="100%" height="450" 
+                        src="https://app.powerbi.com/view?r=eyJrIjoiNjQ5Y2IyNjUtMDNhNi00ZGIyLTk3OTQtY2U2NTRhMzIzYWVkIiwidCI6ImM2ZTU0OWIzLTVmNDUtNDAzMi1hYWU5LWQ0MjQ0ZGM1YjJjNCJ9&pageName=3104c62ea2d2ea8d0da7" 
+                        frameborder="0" allowFullScreen="true">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

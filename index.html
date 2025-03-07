@@ -11,6 +11,43 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap" rel="stylesheet">
 <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
+<style>
+    /* Mobile Portfolio Button */
+.mobile-portfolio-btn {
+    display: none; /* Hidden by default */
+    text-align: center;
+    margin-top: 15px;
+}
+
+.btn-mobile {
+    display: inline-block;
+    padding: 12px 24px;
+    background: #1e1e1e; /* Dark background to match theme */
+    color: #00ffcc; /* Neon blue-green text */
+    text-decoration: none;
+    border: 2px solid #00ffcc; /* Border to make it stand out */
+    border-radius: 8px;
+    font-size: 1.1em;
+    font-weight: 500;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-mobile:hover {
+    background: #00ffcc; 
+    color: #121212; /* Invert colors on hover */
+}
+
+/* Show Button on Mobile View */
+@media screen and (max-width: 768px) {
+    .mobile-portfolio-btn {
+        display: block; /* Show only on mobile */
+    }
+}
+
+
+</style>
 </head>
 <body>
     <div class="container" id="home">
@@ -36,11 +73,19 @@
                     <li><a href="#badges">Badges</a></li>
                     <li><a href="#footer-links">Contact</a></li>
                     <li> <button><a href="https://drive.google.com/file/d/19AF1k6WiDqtqDgMpJ3S9RoiFOHVOZbnr/view?usp=sharing" target="_blank">Resume</a></button></li>
+                    <li> 
+                        <button><a href="analysis.html" target="_blank">Data Analysis Portfolio</a></button>
+                    </li>
                 </ul>
               
         </nav>
       
-        
+<!-- Mobile Data Analysis Portfolio Button -->
+<div class="mobile-portfolio-btn">
+    <a href="analysis.html" target="_blank" class="btn-mobile">📊 Data Analysis Portfolio</a>
+</div>
+
+
     </div>
     <section id="aboutMe" >
         <div class="w-sidebar">
