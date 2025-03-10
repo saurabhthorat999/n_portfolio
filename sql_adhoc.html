@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Supply-Chain Ad-hoc Analysis</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <style>
+        /* General Styles */
+        body {
+            background-color: #121212;
+            color: #ffffff;
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 85%;
+            max-width: 1200px;
+            margin: auto;
+            padding: 50px 0;
+        }
+        .back-link {
+            color: #00ffcc;
+            text-decoration: none;
+            font-size: 18px;
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .back-link i {
+            margin-right: 8px;
+        }
+
+        /* Header */
+        .project-header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        .project-header h1 {
+            color: #00ffcc;
+            font-size: 2.5em;
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+        .project-header p {
+            font-size: 1.2em;
+            color: #bbb;
+            max-width: 800px;
+            margin: auto;
+        }
+
+        /* Project Content */
+        .project-content {
+            background: #1e1e1e;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0px 5px 15px rgba(255, 255, 255, 0.1);
+        }
+        .project-section {
+            margin-bottom: 40px;
+        }
+        .project-section h2 {
+            font-size: 1.5em;
+            color: #41bdff;
+
+            border-bottom: 3px solid #ffcc00;
+            padding-bottom: 8px;
+            margin-bottom: 20px;
+            font-weight: 600;
+        }
+        .project-section p, .project-section ul {
+            font-size: 1.2em;
+            line-height: 1.8;
+            color: #ddd;
+        }
+        .project-section ul {
+            list-style: none;
+            padding-left: 0;
+        }
+        .project-section ul li {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 12px;
+            border-radius: 6px;
+            margin: 5px 0;
+        }
+
+        /* Image Carousel */
+        .carousel {
+            max-width: 100%;
+            margin: auto;
+            position: relative;
+        }
+        .carousel img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            transition: transform 0.3s ease-in-out;
+        }
+        .carousel img:hover {
+            transform: scale(1.02);
+        }
+
+        /* Button */
+        .btn {
+            display: inline-block;
+            padding: 14px 24px;
+            background: #00ffcc;
+            color: #121212;
+            text-decoration: none;
+            border-radius: 8px;
+            font-size: 1.2em;
+            font-weight: 600;
+            transition: background 0.3s ease-in-out;
+        }
+        .btn:hover {
+            background: #00cc99;
+        }
+
+        /* Responsive Design */
+        @media screen and (max-width: 768px) {
+            .container {
+                width: 95%;
+            }
+            .project-header h1 {
+                font-size: 2em;
+            }
+            .project-section h2 {
+                font-size: 1.6em;
+            }
+            .btn {
+                font-size: 1em;
+                padding: 12px 20px;
+            }
+            .carousel {
+            max-width: 100%;
+            margin: auto;}
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="analysis.html" class="back-link"><i class="fas fa-arrow-left"></i> Back to Projects</a>
+
+        <div class="project-header">
+            <h1>Supply-Chain Ad-hoc Analysis</h1>
+            <p>Improving decision-making with SQL-based insights for AtliQ Hardwares.</p>
+        </div>
+
+        <div class="project-content">
+            <div class="project-section">
+                <h2>Project Objective</h2>
+                <p>Atliq Hardwares, a fictional company, is a major computer hardware maker in India and abroad. Yet, they lack quick insights for smart decisions. So, an SQL challenge is on the horizon to fill this data gap.</p>
+            </div>
+
+            <div class="project-section">
+                <h2>Project Details</h2>
+                <p>Our mission in the Sales Performance Enhancement project was to empower decision-makers with actionable insights. Focused on boosting sales, key priorities included:</p>
+                <ul>
+                    <li>Executing In-Depth Data Queries</li>
+                    <li>Informing Decision-Making Strategies</li>
+                    <li>Enhancing Overall Sales Performance</li>
+                </ul>
+            </div>
+
+            <div class="project-section">
+                <h2>Skills & Techniques Used</h2>
+                <ul>
+                    <li>Proficiency in SQL data querying for business insights</li>
+                    <li>Strategic decision-making with data-driven approaches</li>
+                    <li>Selection of effective visualizations for reporting</li>
+                    <li>Implementation of SQL solutions in a business context</li>
+                    <li>Comprehensive analysis of key sales metrics</li>
+                </ul>
+            </div>
+
+            <div class="project-section">
+                <h2>Project Report - Image Gallery</h2>
+                <div class="carousel">
+                    <img src="SQL images/apac.JPG" alt="SQL Report 1">
+                    <img src="SQL images/channel-list.JPG" alt="SQL Report 1">
+                    <img src="SQL images/discounts.JPG" alt="SQL Report 1">
+                    <img src="SQL images/division-wise-ranks.JPG" alt="SQL Report 1">
+                    <img src="SQL images/min_max_cost.JPG" alt="SQL Report 1">
+                    <img src="SQL images/monthwise_sales.JPG" alt="SQL Report 1">
+                    <img src="SQL images/product_counts.JPG" alt="SQL Report 1">
+                    <img src="SQL images/products_change.JPG" alt="SQL Report 1">
+                    <img src="SQL images/quarter-wise_sold_quant.JPG" alt="SQL Report 1">
+                    
+
+
+
+                
+                </div>
+            </div>
+
+            <div class="project-section">
+                <h2>Conclusion</h2>
+                <p>This project helps AtliQ Hardwares make faster and smarter business decisions using SQL-driven insights. By analyzing key sales data, the company can optimize performance, improve efficiency, and drive higher revenue.</p>
+            </div>
+
+            <div class="project-section">
+                <h2>GitHub Repository</h2>
+                <a href="https://github.com/saurabhthorat999/SQL-Ad-hoc-Analysis" class="btn" target="_blank">View on GitHub</a>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        $(document).ready(function(){
+            $('.carousel').slick({
+                dots: true,
+                infinite: true,
+                speed: 500,
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                adaptiveHeight: true
+            });
+        });
+    </script>
+</body>
+</html>
