@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Energy Drinks Market Analysis</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        /* General Styles */
+        body {
+            background-color: #121212;
+            color: #ffffff;
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 85%;
+            max-width: 1200px;
+            margin: auto;
+            padding: 50px 0;
+        }
+        .back-link {
+            color: #00ffcc;
+            text-decoration: none;
+            font-size: 18px;
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .back-link i {
+            margin-right: 8px;
+        }
+
+        /* Header */
+        .project-header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        .project-header h1 {
+            color: #00ffcc;
+            font-size: 2.5em;
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+        .project-header p {
+            font-size: 1.2em;
+            color: #bbb;
+            max-width: 800px;
+            margin: auto;
+        }
+
+        /* Project Content */
+        .project-content {
+            background: #1e1e1e;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0px 5px 15px rgba(255, 255, 255, 0.1);
+        }
+        .project-section {
+            margin-bottom: 40px;
+        }
+        .project-section h2 {
+            font-size: 1.5em;
+            color: #41bdff;
+            border-bottom: 3px solid #ffcc00;
+            padding-bottom: 8px;
+            margin-bottom: 20px;
+            font-weight: 600;
+        }
+        .project-section ul {
+            font-size: 1.2em;
+            line-height: 1.8;
+            color: #ddd;
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+
+/* Image Carousel */
+.carousel {
+            max-width: 100%;
+            margin: auto;
+            position: relative;
+        }
+        .carousel img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            transition: transform 0.3s ease-in-out;
+        }
+        .carousel img:hover {
+            transform: scale(1.02);
+        }
+
+
+                /* Button */
+                .btn {
+            display: inline-block;
+            padding: 14px 24px;
+            background: #00ffcc;
+            color: #121212;
+            text-decoration: none;
+            border-radius: 8px;
+            font-size: 1.2em;
+            font-weight: 600;
+            transition: background 0.3s ease-in-out;
+        }
+        .btn:hover {
+            background: #00cc99;
+        }
+
+        .btn-github {
+    display: inline-block;
+    padding: 12px 20px;
+    background: #24292e;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    font-weight: 600;
+    transition: background 0.3s ease;
+}
+.btn-github:hover {
+    background: #444c56;
+}
+
+        /* Responsive Design */
+        @media screen and (max-width: 768px) {
+            .container {
+                width: 95%;
+            }
+            .project-header h1 {
+                font-size: 2em;
+            }
+            .project-section h2 {
+                font-size: 1.6em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="analysis.html" class="back-link"><i class="fas fa-arrow-left"></i> Back to Projects</a>
+        <div class="project-header">
+            <h1>CodeX : Energy Drinks Market Analysis</h1>
+            <p>Understanding consumer preferences and market trends for energy drinks.</p>
+        </div>
+        <div class="project-content">
+            <div class="project-section">
+                <h2>Demographic Insights</h2>
+                <ul>
+                    <li>60% of the consumers are male.</li>
+                    <li>50% of respondents are between 19-30 years, increasing to 70% if we include 15-30 years.</li>
+                    <li>Online Ads are the most effective marketing channel, reaching 3,373 respondents.</li>
+                </ul>
+            </div>
+            <div class="project-section">
+                <h2>Consumer Preferences</h2>
+                <ul>
+                    <li>Caffeine is the top preferred ingredient, followed by vitamins.</li>
+                    <li>Compact & Portable Cans are in high demand, followed by innovative bottle designs.</li>
+                </ul>
+            </div>
+            <div class="project-section">
+                <h2>Competition Analysis</h2>
+                <ul>
+                    <li>Cola Coka leads the market, followed by Bepsi.</li>
+                    <li>Brand reputation is the primary reason for brand preference.</li>
+                </ul>
+            </div>
+            <div class="project-section">
+                <h2>Marketing Channels & Brand Awareness</h2>
+                <ul>
+                    <li>Online Ads are the most effective marketing channel.</li>
+                    <li>Overall brand rating is 3.3 out of 5.</li>
+                    <li>Focus on cities with high neutral/negative responses.</li>
+                </ul>
+            </div>
+            <div class="project-section">
+                <h2>Purchase Behavior</h2>
+                <ul>
+                    <li>Supermarkets are the preferred purchase location.</li>
+                    <li>Common consumption scenarios: Sports/exercise, studying, working late.</li>
+                    <li>43% prefer a price range between 50-99.</li>
+                </ul>
+            </div>
+            <div class="project-section">
+                <h2>Product Development</h2>
+                <ul>
+                    <li>Areas to improve: Availability, health concerns, limited edition packaging, and natural ingredients.</li>
+                </ul>
+            </div>
+            <div class="project-section">
+                <h2>Project Report - Image Gallery</h2>
+                <div class="carousel">
+                    <img src="codeX output images/1.JPG" alt="SQL Report 1">
+                    <img src="codeX output images/2.JPG" alt="SQL Report 2">
+                    <img src="codeX output images/3.JPG" alt="SQL Report 3">                
+                    <img src="codeX output images/4.JPG" alt="SQL Report 4">                
+                </div>
+            </div>
+            <div class="project-section">
+                <h2>Recommendations for CodeX</h2>
+                <ul>
+                    <li>Price Strategy: 50-99 in metro cities, up to 150 in others.</li>
+                    <li>Marketing Campaigns: Social media ads, influencer marketing, e-commerce ads, supermarket displays, and event participation.</li>
+                    <li>Brand Ambassadors: Virat Kohli, Neeraj Chopra, MS Dhoni.</li>
+                    <li>Target Audience: 15-30 years age group.</li>
+                </ul>
+            </div>
+            <div class="project-section">
+                <h2>Project Repository</h2>
+                <a href="https://github.com/saurabhthorat999/codeX-FMCG" target="_blank" class="btn">
+                    <i class="fab fa-github"></i> View on GitHub
+                </a>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        $(document).ready(function(){
+            $('.carousel').slick({
+                dots: true,
+                infinite: true,
+                speed: 500,
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                adaptiveHeight: true
+            });
+        });
+    </script>
+</body>
+</html>
